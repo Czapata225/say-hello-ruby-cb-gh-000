@@ -12,9 +12,7 @@ describe "say_hello" do
     say_hello()
   end
 end
-def say_hello(phrase, name = "Hello Ruby Programmer!")
-puts "Hello #{name}"
-end
-def say_hello(x="Ruby Programmer")
-  puts "Hello #{x} !"
+
+def say_hello(x = "Ruby Programmer!")
+  puts "Hello #{x}"
 end
