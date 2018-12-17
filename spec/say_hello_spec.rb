@@ -15,5 +15,5 @@ end
 def say_hello(phrase, name = "Hello Ruby Programmer!")
 puts "Hello #{name}"
 end
-def say_hello 
+def say_hello
 end
